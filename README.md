@@ -1,5 +1,5 @@
 # Master Mind from the shell
-Are you a true fan of the classic game? Have you ever had trouble finding an opponent? Fear not! With this python script, you can play against youre computer directly from your console!    
+Are you a true fan of the classic game? Have you ever had trouble finding an opponent? Fear not! With this python script, you can play against your computer directly from your console!    
 
 ## Repository structure
 src: Folder for the python script    
