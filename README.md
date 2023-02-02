@@ -14,7 +14,7 @@ Along the way, I added the following features:
 - A user can specify which colours they would prefer to be used, and the nr. of turns a player has to guess the code.
 - If the player has not guessed any colours right, the message "No colours match" will be displayed instead of an empty score
 
-The program is written to work from and run in the shell, as I lack experience in writing GUIs. This is a bit of a shame, as Mastermind is a very visual game. An impossible improvement I could make if I were to revisit this program would be to see if I could at least have the text appear in the console in colour.    
+The program is written to work from and run in the shell, as I lack experience in writing GUIs. This is a bit of a shame, as Mastermind is a very visual game. A possible improvement I could make if I were to revisit this program would be to see if I could at least have the text appear in the console in colour.    
 
 Excluding main(), 9 functions are defined in the script of the program. These functions are written to part the script into more digestible bites, as well as to avoid repeating code. Most of the text snippets that will, at some point, be printed onto the console when the program is running are defined in the beginning of the script, to make it easier to correct mistakes or change them entirely. The only exceptions are a couple of f-strings, used in the beginning and the end of the game, as I could not find a convenient way to move them to the start of the script.          
      
@@ -26,7 +26,7 @@ src: Folder for the python script
 - Master_script.py
 
 github_link.txt: link to github repository    
-requirements.txt: txt file containing the modules required to run the code
+requirements.txt: txt file containing the modules required to run the code    
 readme_txt: README in a txt file in case the user cannot read the markdown
 
 ## Usage
