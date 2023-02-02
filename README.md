@@ -1,6 +1,22 @@
 # Master Mind from the shell
 Are you a true fan of the classic game? Have you ever had trouble finding an opponent? Fear not! With this python script, you can play against your computer directly from your console!    
 
+## Design Considerations
+The program was written to allow a user to play the game Mastermind with the following rules:
+- The sequence can contain pegs of colors: red, yellow, green, blue, white, black.
+- A color can be used any number of times in the sequence.
+- All four pegs of the secret sequence will contain a color - no blanks/empties are allowed.
+- Each guess must consist of 4 peg colors - no blanks.
+- The player has 12 guesses to find the secret sequence.
+
+Along the way, I added the following features: 
+- The program can recognize a couple of common typos, and inform the user when it finds them. are not counted as a player using a turn. 
+- A user can specify which colours they would prefer to be used, and the nr. of turns a player has to guess the code.
+- If the player has not guessed any colours right, the message "No colours match" will be displayed instead of an empty score
+
+Excluding the main(), 9 functions are defined in the script of the program. These functions are written to part the script into more digestible bites, as well as to avoid repeating code. Most of the text snippets that will, at some point, be printed onto the console when the program is running are defined in the beginning of the script, to make it easier to correct mistakes or change them entirely. The only exceptions are a couple of f-strings, used in the beginning and the end of the game, as I could not find a convenient way to move them to the start of the script.          
+The program was written for Python 3.11.1, and I cannot guarantee that it will work with another version. Aside from the ones mentioned in requirements.txt, the program depends on the built-in modules: sys, random, argparse, and copy. 
+
 ## Repository structure
 src: Folder for the python script    
 -	\_\_init__.py
